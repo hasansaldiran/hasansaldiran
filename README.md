@@ -7,20 +7,19 @@
 <p>
   <a href="https://www.linkedin.com/in/hasan-sald%C4%B1ran-0a8b29168/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn"></a>
   <a href="mailto:hasansaldirann@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"></a>
-  <img src="https://img.shields.io/badge/İstanbul-Türkiye-111?style=for-the-badge" alt="Location">
 </p>
 
 </div>
 
 ---
 
-### TL;DR
+### Hakkımda
 
-Sağlık sektöründe kurumsal BT ortamı için **risk otomasyonu**, **kimlik
-otomasyonu** ve iç araçlar geliştiriyorum. Python + C# + ASP.NET yığınını
-günlük kullanıyorum; güvenlik tarafında **MITRE ATT&CK** ve **CIS Controls
-v8** referans çerçevelerim. Fikri üretimden üretime tek başıma taşıyabilen,
-ölçülebilir çıktıya odaklanan bir mühendisim.
+Sağlık sektöründe kurumsal BT ortamı için risk otomasyonu, kimlik
+otomasyonu ve iç araç çözümleri geliştiriyorum. **Python**, **C#** ve
+**ASP.NET** ana yığınlarım; güvenlik pratiğimde **MITRE ATT&CK** ve
+**CIS Controls v8** çerçevelerini referans alıyorum. Fikirden üretime
+uçtan uca sahiplenen ve ölçülebilir çıktıya odaklanan bir mühendisim.
 
 ---
 
@@ -30,28 +29,27 @@ v8** referans çerçevelerim. Fikri üretimden üretime tek başıma taşıyabil
 
 Lansweeper envanterini NIST NVD CVE veritabanı, MITRE ATT&CK teknikleri ve
 CIS Controls v8 uyum çerçevesiyle eşleyen; varlık başına risk skoru üreten;
-Streamlit dashboard + Excel/PDF yönetici raporu döndüren Python platformu.
-Dünyagöz Hastaneler Grubu BT envanterinde **üretimde** çalışıyor.
+Streamlit dashboard ile Excel/PDF yönetici raporları döndüren Python
+platformu. Dünyagöz Hastaneler Grubu BT ortamında üretimde çalışıyor.
 
-> **Altta:** `pandas` · `Streamlit` · `ReportLab` · Lansweeper API · NIST NVD · SMTP bildirim
-> · anomali tespit · yazılım yaşam döngüsü takibi
+> **Yığın:** `pandas` · `Streamlit` · `ReportLab` · Lansweeper API · NIST NVD · SMTP bildirim · anomali tespit · yazılım yaşam döngüsü takibi
 
 #### 🪪 Personel Kimlik Kartı Otomasyonu — üç parçalı iş akışı
 
 Tarayıcıdan gelen yüzlerce vesikalık fotoğrafı OpenCV ile yüz tespiti
-yaparak ISO vesikalık ölçülerine kırpan, `personel.xlsx` ile eşleştiren,
-son olarak baskıya hazır tek-tık Word çıktısı üreten üçlü:
+yaparak ISO vesikalık ölçülerine kırpan, `personel.xlsx` referansıyla
+eşleştiren ve son olarak baskıya hazır Word çıktısı üreten üçlü:
 
 1. **[vesikalik-tespit](https://github.com/hasansaldiran/vesikalik-tespit)** — görüntü hazırlama (OpenCV + PyMuPDF)
-2. **[kimlik-automation](https://github.com/hasansaldiran/kimlik-automation)** — isim-fotoğraf eşleştirme (pandas + fuzzy match)
+2. **[kimlik-automation](https://github.com/hasansaldiran/kimlik-automation)** — isim-fotoğraf eşleştirme (pandas + bulanık eşleşme)
 3. **[baskici](https://github.com/hasansaldiran/baskici)** — ISO kimlik kartı ölçülerinde Word çıktısı (python-docx)
 
 #### 💬 [Beyaz Masa Chatbot](https://github.com/hasansaldiran/chatbot-nlp-flask) — İBB Beyaz Masa
 
-İBB stajı kapsamında geliştirdiğim; NLTK tabanlı Türkçe tokenize/lemmatize
-pipeline'ı + Keras intent sınıflandırıcı + Flask sunum katmanından oluşan
-vatandaş-bilgilendirme botu. Üniversite bitirme projesinin açık kaynak
-sürümü.
+İBB stajım kapsamında geliştirdiğim; NLTK tabanlı Türkçe tokenize/lemmatize
+pipeline'ı, Keras intent sınıflandırıcısı ve Flask sunum katmanından oluşan
+vatandaş bilgilendirme botu. Üniversite bitirme projesinin açık kaynak
+sürümüdür.
 
 ---
 
@@ -100,9 +98,9 @@ sürümü.
 <br>Mart 2025 — Halen · İstanbul
 
 Kurum içi BT risk otomasyonu ve iç araç geliştirme. HBYS entegrasyonu,
-Active Directory yönetimi, Lansweeper tabanlı envanter analizi, son
-kullanıcı desteği. MITRE ATT&CK ve CIS Controls v8 çerçevelerine göre
-güvenlik iyileştirmeleri.
+Active Directory yönetimi, Lansweeper tabanlı envanter analizi ve son
+kullanıcı desteği. MITRE ATT&CK ile CIS Controls v8 çerçevelerine göre
+güvenlik iyileştirmeleri yürütüyorum.
 
 ---
 
@@ -118,13 +116,13 @@ güvenlik iyileştirmeleri.
 
 | Proje | Açıklama | Yığın |
 |---|---|---|
-| [`kutuphane-otomasyonu`](https://github.com/hasansaldiran/kutuphane-otomasyonu) | Kitap, üye, ödünç/iade yönetimi — stored procedure + trigger + view ile ayrılmış veri katmanı | C# · WinForms · SQL Server · T-SQL |
-| [`guide-map`](https://github.com/hasansaldiran/guide-map) | İstanbul gezi rehberi — WebForms + Core MVC + Google Maps API üç ayrı çözüm | ASP.NET · C# · Google Maps |
-| [`stok-takip`](https://github.com/hasansaldiran/stok-takip) | Ürün / müşteri / sipariş takibi — `AdminUser` config-driven | C# · WinForms · MS Access |
-| [`market-otomasyonu`](https://github.com/hasansaldiran/market-otomasyonu) | Market satış & kasa yönetimi — typed DataSet üstüne | VB.NET · WinForms · MS Access |
-| [`car-counting`](https://github.com/hasansaldiran/car-counting) | Arka plan çıkarımı ile tek-şerit araç sayımı | OpenCV · MOG2 |
+| [`kutuphane-otomasyonu`](https://github.com/hasansaldiran/kutuphane-otomasyonu) | Kitap, üye, ödünç ve iade yönetimi; stored procedure, trigger ve view ile ayrılmış veri katmanı | C# · WinForms · SQL Server · T-SQL |
+| [`guide-map`](https://github.com/hasansaldiran/guide-map) | İstanbul gezi rehberi; WebForms, Core MVC ve Google Maps API tabanlı üç ayrı çözüm | ASP.NET · C# · Google Maps |
+| [`stok-takip`](https://github.com/hasansaldiran/stok-takip) | Ürün, müşteri ve sipariş takibi; `AdminUser` anahtarı yapılandırma dosyasından okunur | C# · WinForms · MS Access |
+| [`market-otomasyonu`](https://github.com/hasansaldiran/market-otomasyonu) | Market satış ve kasa yönetimi; typed DataSet üzerine kurulu | VB.NET · WinForms · MS Access |
+| [`car-counting`](https://github.com/hasansaldiran/car-counting) | Arka plan çıkarımı ile tek şeritte araç sayımı | OpenCV · MOG2 |
 | [`vehicle-detection-opencv`](https://github.com/hasansaldiran/vehicle-detection-opencv) | Haar Cascade ile video üzerinde araç tespiti | OpenCV |
-| [`uluastro-website`](https://github.com/hasansaldiran/uluastro-website) | Uludağ Ünv. Astronomi Topluluğu statik sitesi (arşiv) | HTML · CSS · JS · Bootstrap |
+| [`uluastro-website`](https://github.com/hasansaldiran/uluastro-website) | Uludağ Üniversitesi Astronomi Topluluğu statik sitesi (arşiv) | HTML · CSS · JS · Bootstrap |
 
 ---
 
@@ -147,6 +145,6 @@ güvenlik iyileştirmeleri.
 
 <div align="center">
 
-*İşbirliği, danışmanlık ya da sadece fikir alışverişi için kapım açık.*
+*İşbirliği talepleri ve profesyonel iletişim için LinkedIn ya da e-posta üzerinden bana ulaşabilirsiniz.*
 
 </div>

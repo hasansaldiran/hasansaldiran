@@ -75,7 +75,7 @@ Kurum içi BT risk otomasyonu ve iç araç geliştirme. HBYS entegrasyonu, Activ
 
 | Proje | Açıklama | Yığın |
 |-------|----------|-------|
-| [meyve-sebze-tespiti](https://github.com/hasansaldiran/Meyve_Sebze_Tespiti) | CNN tabanlı meyve/sebze sınıflandırma ve yaprak hastalık tespiti; MobileNetV2 + ResNet-9; Streamlit UI + Flask API | Python · TensorFlow · Keras · OpenCV · Streamlit · Flask |
+| [meyve-sebze-tespiti](https://github.com/hasansaldiran/Meyve_Sebze_Tespiti) | CNN tabanlı meyve/sebze sınıflandırma ve yaprak hastalık tespiti; MobileNetV2 + ResNet-9 | Python · TensorFlow · Keras · OpenCV · Streamlit · Flask |
 | [veri-madenciligi-makale](https://github.com/hasansaldiran/Veri-Madencili%C4%9Fi-Makale) | Ön lisans bitirme projesi; veri önişleme, sınıflandırma ve kümeleme algoritmalarının karşılaştırmalı analizi | Veri Madenciliği · Makine Öğrenmesi |
 | [kutuphane-otomasyonu](https://github.com/hasansaldiran/MSSQL-Server---C---Kutuphane-Otomasyonu) | Kitap, üye, ödünç ve iade yönetimi; stored procedure, trigger ve view ile ayrılmış veri katmanı | C# · WinForms · SQL Server · T-SQL |
 | [guide-map](https://github.com/hasansaldiran/GuideMap) | İstanbul gezi rehberi; WebForms, Core MVC ve Google Maps API tabanlı üç ayrı çözüm | ASP.NET · C# · Google Maps |

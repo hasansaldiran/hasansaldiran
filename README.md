@@ -14,7 +14,7 @@
 
 ### Hakkımda
 
-Bilgisayar Mühendisliği mezunu, sistem ve altyapı çözümleri üreten BT mühendisiyim. Türkiye ve Azerbaycan'daki 25'i aşkın lokasyonda Windows Server, Active Directory/Entra ID, Microsoft 365 ve MDM altyapısını yönetiyor; 2.000+ kullanıcı ve 2.250+ BT varlığını kapsayan kurumsal ortamda sistem operasyonlarını sürdürüyorum. Kendi inisiyatifimle Python ve Streamlit ile bir BT Risk Yönetim Platformu geliştirdim — MITRE ATT&CK tehdit haritalama, CIS Controls v8 uyumluluk skorlaması ve NIST NVD CVE entegrasyonunu kapsayan bu platform, yönetim için otomatik raporlar üretiyor. Daha önce ÇMHM'de NATO tatbikatlarına ev sahipliği yapan uluslararası askeri ortamda 500+ çok uluslu katılımcıya teknik destek sağladım. Teknik becerileri iş problemlerine kalıcı çözüme dönüştürmeye, süreçleri otomatize etmeye ve yeni teknolojilere hızlı adapte olmaya odaklanıyorum.
+Bilgisayar Mühendisliği mezunu, sistem ve altyapı çözümleri üreten BT mühendisiyim. Dünyagöz Hastaneler Grubu bünyesindei yurt içi ve yurt dışında 28 lokasyonda Windows Server, Active Directory/Entra ID, Microsoft 365 ve MDM altyapısını yönetiyor; 2.000+ kullanıcı ve 2.250+ BT varlığını kapsayan kurumsal ortamda sistem operasyonlarını sürdürüyorum. Kendi inisiyatifimle Python ve Streamlit ile bir BT Risk Yönetim Platformu geliştirdim — MITRE ATT&CK tehdit haritalama, CIS Controls v8 uyumluluk skorlaması ve NIST NVD CVE entegrasyonunu kapsayan bu platform, yönetim için otomatik raporlar üretiyor. Daha önce ÇMHM'de NATO tatbikatlarına ev sahipliği yapan uluslararası askeri ortamda 500+ çok uluslu katılımcıya teknik destek sağladım. Teknik becerileri iş problemlerine kalıcı çözüme dönüştürmeye, süreçleri otomatize etmeye ve yeni teknolojilere hızlı adapte olmaya odaklanıyorum.
 
 ---
 
